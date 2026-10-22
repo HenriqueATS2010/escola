@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "nome": "Douglas Crockford",
+    "email": "d@email.com",
+    "fone": "123456789",
+    "senha": "1234"
+  },
+  {
+    "id": 2,
+    "nome": "Jon Bosak",
+    "email": "jon@email.com",
+    "fone": "987654321",
+    "senha": "1234"
+  },
+  {
+    "id": 3,
+    "nome": "gilbert",
+    "email": "gilbert@email.com",
+    "fone": "84999998877",
+    "senha": "1234"
+  },
+  {
+    "id": 4,
+    "nome": "admin",
+    "email": "admin",
+    "fone": "fone",
+    "senha": "0710"
+  },
+  {
+    "id": 5,
+    "nome": "Noivinha",
+    "email": "noiva@email.com",
+    "fone": "9988187504",
+    "senha": "0710"
+  }
+]
