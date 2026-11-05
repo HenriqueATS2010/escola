@@ -16,17 +16,21 @@ from templates.admalterarsenhaui import ADMAlterarSenhaUI
 from templates.registraratendimentoui import RegistrarAtendimentoUI
 from templates.pagaratendimentoui import PagarAtendimentoUI
 from templates.totalatendimentos import TotalAtendimentosUI
+from templates.listarhorariosnaoconfirmadoshojeui import ListarHorariosNaoConfirmadosHojeUI
+from templates.listaragendaclienteui import ListarAgendaClienteUI
 from service import Service
 import streamlit as st
 
 class IndexUI:
     def menu_admin():
-        op = st.sidebar.selectbox("Menu", ["Cadastro de Clientes", "Cadastro de Serviços", "Cadastro de Horários", "Cadastro de Profissionais", "Cadastro de Atendimentos","Total de Atendimentos", "Alterar senha"])
+        op = st.sidebar.selectbox("Menu", ["Cadastro de Clientes", "Cadastro de Serviços", "Cadastro de Horários", "Cadastro de Profissionais", "Cadastro de Atendimentos", "Horários não confirmados de hoje", "Agenda do cliente", "Total de Atendimentos", "Alterar senha"])
         if op == "Cadastro de Clientes": ManterClienteUI.main()
         if op == "Cadastro de Serviços": ManterServicoUI.main()
         if op == "Cadastro de Horários": ManterHorarioUI.main()
         if op == "Cadastro de Profissionais": ManterProfissionalUI.main()
         if op == "Cadastro de Atendimentos": ManterAtendimentoUI.main()
+        if op == "Horários não confirmados de hoje": ListarHorariosNaoConfirmadosHojeUI.main()
+        if op == "Agenda do cliente": ListarAgendaClienteUI.main()
         if op == "Total de Atendimentos": TotalAtendimentosUI.main()
         if op == "Alterar senha": ADMAlterarSenhaUI.main()
     def sidebar():
