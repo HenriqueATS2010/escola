@@ -1,17 +1,17 @@
 [
   {
     "id": 1,
-    "descricao": "Consulta",
-    "valor": 100.0
+    "descricao": "Vacina",
+    "valor": 70.0
   },
   {
     "id": 2,
-    "descricao": "Exame de Sangue",
-    "valor": 200.0
+    "descricao": "Ultrassom",
+    "valor": 185.0
   },
   {
     "id": 3,
-    "descricao": "Curativo",
-    "valor": 10.0
+    "descricao": "Sess\u00e3o de Fisioterapia",
+    "valor": 85.0
   }
 ]

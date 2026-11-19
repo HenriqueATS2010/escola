@@ -1,23 +1,23 @@
 [
   {
     "id": 1,
-    "nome": "Douglas Crockford",
-    "email": "d@email.com",
-    "fone": "123456789",
+    "nome": "Linus Torvalds",
+    "email": "linus39@email.com",
+    "fone": "84935729137",
     "senha": "1234"
   },
   {
     "id": 2,
-    "nome": "Jon Bosak",
-    "email": "jon@email.com",
-    "fone": "987654321",
+    "nome": "Brendan Eich",
+    "email": "brendan34@email.com",
+    "fone": "84978612789",
     "senha": "1234"
   },
   {
     "id": 3,
-    "nome": "gilbert",
-    "email": "gilbert@email.com",
-    "fone": "84999998877",
+    "nome": "Grace Hopper",
+    "email": "grace86@email.com",
+    "fone": "84948505996",
     "senha": "1234"
   },
   {
@@ -25,13 +25,13 @@
     "nome": "admin",
     "email": "admin",
     "fone": "fone",
-    "senha": "0710"
+    "senha": "0000"
   },
   {
     "id": 5,
-    "nome": "Noivinha",
-    "email": "noiva@email.com",
-    "fone": "9988187504",
+    "nome": "Tim Berners-Lee",
+    "email": "tim84@email.com",
+    "fone": "84997832146",
     "senha": "0710"
   }
 ]
